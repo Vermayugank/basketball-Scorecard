@@ -1,5 +1,5 @@
-let hCount=1000;
-let gCount=1000;
+let hCount=0;
+let gCount=0;
 let hCEl=document.getElementById("count-h");
 let gCEl=document.getElementById("count-g");
 function add1_h(){
@@ -15,6 +15,7 @@ function add3_h(){
   hCount+=3;
   hCEl.innerHTML=hCount;
 }
+
 function add1_g(){
   gCount+=1;
   gCEl.innerHTML=gCount;
