@@ -28,3 +28,10 @@ function add3_g(){
   gCount+=3;
   gCEl.innerHTML=gCount;
 }
+function reset() {
+  console.log("click reset");
+  hCount = 0;
+  gCount = 0;
+  hCEl.innerHTML = hCount;
+  gCEl.innerHTML = gCount;
+}
