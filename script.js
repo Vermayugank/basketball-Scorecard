@@ -47,7 +47,6 @@ function start() {
     var seconds = c % 60; // Seconds that cannot be written in minutes
     var secondsInMinutes = (c - seconds) / 60; // Gives the seconds that COULD be given in minutes
     var minutes = secondsInMinutes % 60; // Minutes that cannot be written in hours
-    var hours = (secondsInMinutes - minutes) / 60;
     // Now in hours, minutes and seconds, you have the time you need.
     // if (minutes < 10) {
     //   if (seconds < 10) timerEl.textContent = "0" + minutes + ":0" + seconds;
